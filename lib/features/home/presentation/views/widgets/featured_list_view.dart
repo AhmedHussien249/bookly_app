@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'custom_list_view_item.dart';
+import 'featured_list_view_item.dart';
 
 class FeaturedListView extends StatelessWidget {
   const FeaturedListView({super.key});
@@ -12,7 +12,7 @@ class FeaturedListView extends StatelessWidget {
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) => const Padding(
-          padding: EdgeInsets.only(left: 16),
+          padding: EdgeInsets.only(right: 16),
           child: FeaturedListViewItem(),
         ),
       ),
