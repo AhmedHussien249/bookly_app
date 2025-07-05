@@ -21,4 +21,4 @@ class BestSellerSliverListView extends StatelessWidget {
 
 // mmkn 3lfkra tst5dm mkan sliver list tst5dm list view 3dya bs f el custom
 // scrool t7ot mkan expaded sliver fill remaining w tshel el el scroll bta3
-// el list view 
+// el list view
