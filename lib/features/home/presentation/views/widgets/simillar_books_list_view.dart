@@ -15,7 +15,10 @@ class SimillarBooksListView extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) => const Padding(
             padding: EdgeInsets.only(right: 16),
-            child: CustomBookImage(),
+            child: CustomBookImage(
+              imageUrl:
+                  'https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=',
+            ),
           ),
         ),
       ),
